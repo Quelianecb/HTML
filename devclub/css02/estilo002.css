@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    border: 1px solid red;
+    color: blue;
+
+}
+input::placeholder{
+    color: blue;/* cor da letra*/
+}
+p{
+    color: aqua;
+}
+p::first-letter{
+    color: red;/* so a primeira letra fica com, essa cor*/
+}
+h1::first-line{
+    color: blue;/* primeira linha toda*/
+}
+a{
+    color: orangered;
+}
+a::before{
+    content: "->";/* conteudo antes*/
+}
+h2::after{
+    content: "->";/* adicionar conteudo depois*/
+}

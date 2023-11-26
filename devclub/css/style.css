@@ -1,0 +1,9 @@
+/*
+*{
+    background-color: aqua;/* o * ele seleciona tudo
+}
+*/
+
+.texto, .botao,.segundo-botao, #paragrafo{
+    color:brown;
+}

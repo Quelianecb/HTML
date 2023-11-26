@@ -1,0 +1,15 @@
+.vo{
+  background: pink;
+}
+
+.pai{
+    width: 50vw;
+    height: 50vh;
+    background: blue;
+}
+
+.filho{
+    width: 50%;
+    height: 50%;
+    background: red;
+}

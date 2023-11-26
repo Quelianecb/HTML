@@ -1,0 +1,65 @@
+*{
+    
+}
+header{
+    margin: 44px 0 144px 76px;/* margim em cima direita baixo esquerda*/
+}
+.link-header{
+    font-weight:  600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;/*  cursor com a maozinha em cima*/
+    margin-right: 23px;/*espaçamento entre cada nome*/
+
+}
+
+.botao{
+    background: purple;
+    border-radius: 20px;
+    color: white;
+    width: 130px;
+    height: 41px;
+    cursor: pointer;
+}
+.logo-imagem{
+    margin-left: 125px;
+    display: inline-block;
+}
+section{
+    display: inline-block;/* pegou a caixa section e alinhou no meio*/
+    margin-left: 86px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 100px;/* tamanho da fonte*/
+    line-height: 120px;/*altura da letra*/
+    color: #515151;
+
+}
+h2{
+    font-weight: 500;
+    font-size: 59px;/* tamanho da fonte*/
+    line-height: 71px;/*altura da letra*/
+    color: #515151;
+}
+p{
+    font-weight: 400;
+    font-size: 24px;/* tamanho da fonte*/
+    line-height: 29px;/*altura da letra*/
+    color: #848484;
+    width: 515px;
+}
+
+.botao-1{
+    background: #adff00;
+    border-radius: 30px;
+    color: black;
+    width: 239px;
+    height:64px;
+    border: none;/* sem a borda*/
+    cursor: pointer;
+    font-size: 28px;/* tamanho da fonte*/
+    font-weight: 700;/* espesura da fonte*/
+}

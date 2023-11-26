@@ -1,0 +1,12 @@
+.box{
+    background: purple;
+    width: 50px;
+    height: 100px;
+    margin: 100px 20px 40px 5px;/* espaçamento da caixa cima direita baixo esquerdo referente as valores*/
+}
+.box2{
+background: pink;
+width: 50px;
+height: 50px;
+padding: 10px 50px  56px 55px;
+}

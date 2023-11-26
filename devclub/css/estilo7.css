@@ -1,0 +1,14 @@
+h1{
+    color: pink;/*cor daletra*/
+    font-size: 64px;/*tamanho*/
+    font-style: italic;/*fonte fica deitada*/
+    text-shadow: 5px 5px 10px;/*o texto fica um sobre o outro  caso queira com sombra so adicionar 10px*/
+    font-weight: lighter;
+}
+p{
+    color: blueviolet;
+   font-size: 50px;/*tamanho da letra*/
+    font-weight: 100;/* altura da letra*/
+    text-transform: uppercase;/*todas letras maiuscular*/
+    text-decoration: underline;/* linha no texto*/
+}
