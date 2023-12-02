@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo_classes</title>
+</head>
+<style>
+    body{
+        background: pink;
+    }
+    ul{
+        text-align: center;
+    }
+    a{
+        color:rgb(43, 0, 255);
+        font-weight: bold;
+        text-decoration: none;/* sem a linha de baixo do link*/
+        
+    }
+    a:visited{
+        color: black;/* quando o site for visitado vai ficar preto*/
+    }
+    a:hover{
+        color: aqua;/*quando passar o mouse em cima vai ficar com essa cor*/
+        cursor: pointer;
+    }
+    a:active{/* quando clicar em cima do link*/
+        color: yellow;
+    }
+    a::after{/*inserido algo depois do texto*/
+        content: ' amor';
+    }
+    a::before{/* inserido antes */
+        content: ' vai com calma';
+    }
+    </style>
+<body>
+    <ul>
+        <li><a href="">PAZ</a></li>
+        <li><a href="">CARINHO</a></li>
+        <li><a>RESPEITO</a></li>
+        <li><a>CORANGEM</a></li>
+    </ul>
+</body>
+</html>
