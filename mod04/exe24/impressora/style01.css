@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+   
+
+}
+h1{
+    text-align: center;
+}
+menu{
+    display: none;
+}
+article::after{
+ content: "TEXTO IMPRESSO PELA QUELIANE";/* comentarios so aparece na hora de impremir*/
+}
