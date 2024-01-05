@@ -18,10 +18,10 @@
         background-image: url("../back-pc.jpg");
 
     }
-    img#fone{ display:block;}
+    img#fone{ display:none;}
 img#tablet{ display: none;}
 img#print{ display: none;}
-img#pc{ display: none;}
+img#pc{ display: block;}
 img#tv{ display: none;}
 }
 @media screen and (min-width:1220px) {
