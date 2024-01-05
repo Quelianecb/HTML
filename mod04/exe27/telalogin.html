@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELA DE LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <img src="./building-102840_640.jpg" alt="predio">
+                <p>Seja bem-vindo</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <i>icon</i>
+
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email"
+                            required maxlength="30"></input>
+                        <label for="">LOGIN</label>
+
+                    </div>
+                    <div class="campo">
+                        <i></i>icon
+
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha"
+                            autocomplete="current-password" required maxlength="8"></input>
+                        <label for="">SENHA</label>
+
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html">Esqueci a senha <i>icon</i></a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
