@@ -13,7 +13,9 @@
 body{
     background-color: #c5eb76;
 }
+
 header{
+    background-image: linear-gradient(var(--cor2),var(--cor4));
     min-height: 150px;
     text-align: center;
     padding: 40px;
@@ -43,21 +45,26 @@ nav > a{
     text-decoration: none;
     border-radius: 5px;
     transition: 0.5s;
+    font-weight: bold;
 }
 nav>a:hover{
     background-color: var(--cor3);
     color: var(--cor5);
 }
-main h1{
-    color: var(--cor5);
-    font-family: var(--fonte-android);
-}
+
 main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
     background-color: white;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.468);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+main h1{
+    color: var(--cor5);
+    font-family: var(--fonte-android);
 }
 main p{
     margin: 15px 0px;
@@ -69,11 +76,64 @@ main p{
 }
 main h2{
     font-family: var(--fonte-android);
+    color: #1a5c37;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
 }
 main img{
     width: 100%;
 }
+main img.pequena{
+    width: 50%;
+    display: block;/*alinhamneto no centro usando esse e margin*/
+    margin: auto;
+}
+div.video{
+    background-color: #063d1e;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+div.video > picture> iframe{
+    position: absolute;
+    top: 5%;
+    left:5% ;
+    width: 90%;
+    height: 90%;
+}
+aside{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281) ;
+}
+aside > h3{
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+aside> ul{
+list-style-type: '\2714\00A0\00A0';
+list-style-position: inside;
+columns: 2;
+}
 footer{
     background-color: #063d1e;
     color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+footer >p> a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer >p> a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
 }

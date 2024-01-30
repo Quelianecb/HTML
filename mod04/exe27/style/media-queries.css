@@ -1,0 +1,49 @@
+/*pequenas telas:ate 600px
+celulares :600px ate 768px
+tablet: 768px ate 992px
+deskot:992px ate 1200px
+grandes: acima de 1200px
+*/
+@media screen and (min-width: 768px ) and (max-width:990px) {
+
+    body{
+        background-image: linear-gradient( to top, green, purple);
+    }
+    section#login{
+        width: 90vw;
+        height: 280px;
+    }
+    /* imagem na lateral*/
+    section#login >div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login >div#formulario{
+        float: right;
+        width: 70%;
+    }
+    
+}
+@media screen and (min-width:980px) {
+    body{
+        background-image: linear-gradient( to top, green, purple);
+    }
+    section#login{
+        width: 950px;
+    }
+    section#login >div#imagem{
+        float: right ;
+        width: 50%;
+        height: 100%;
+        
+    }
+    section#login >div#formulario{
+        float: left;
+        width: 50%;
+    }
+   div#formulario  > p{
+    font-size: 1.2em;
+   }
+
+}
